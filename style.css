@@ -1,0 +1,124 @@
+/* Reset CSS */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+logo sikamase {
+    width: 100px;
+    align: center;
+}
+galery img {
+    width: 200px;
+    height: auto;
+}
+header img {
+    width: 100px;
+    height: auto;
+    margin-left: auto;
+}
+.logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+}
+
+.title h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.title p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
+banner{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.banner img {
+    width: 250%;
+    height: 200px;
+    display: block;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+center {
+    margin-bottom: 60px;
+    padding: 50px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.gallery {
+    display: flex;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid #4CAF50;
+
+}
+profil {
+    text-align: center;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
